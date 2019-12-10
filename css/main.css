@@ -2,83 +2,48 @@ html {
   font-family: "Noto Sans", sans-serif;
 }
 
-[lang="ja"] {
+.jap {
   font-family: "Noto Sans Japanese", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
-.logo,
-nav {
-  text-align: center;
-}
-
-nav a:hover {
-  color: #860927;
-  border-color: #860927;
-}
-
-nav a {
+.btn {
+  color: #000;
   text-decoration: none;
-  color: #b64c6e;
-  border-bottom: 1.5px solid #d89fb0;
+  background-color: transparent;
+  border-style: none;
 }
 
 .btn-ghost {
-  border-width: 1.5px;
-  border-color: #d89fb0;
-  color: #b64c6e;
+  text-decoration: none;
+  color: #000;
+  border-radius: 3px;
+  border-color: #8bc9d9;
+  border: 2px solid;
+}
+
+.btn:hover {
+  background-color: #ddd;
+  color: #005e76;
+  border-color: #000;
 }
 
 .btn-ghost:hover {
-  background-color: #d89fb0;
-  color: #860927;
-  border-color: #860927;
+  color: #005e76;
 }
 
-.max-length-eng {
-  max-width: 10rem;
+.eng {
+  font-family: "Noto Sans", sans-serif;
 }
 
-main header div {
-  border: 1.5px solid #e2e2e2;
-  border-bottom: 1.5px solid #e2e2e2;
-}
-
-footer {
-  border-top: 1.5px solid #e2e2e2;
-}
-
-@media only screen and (min-width: 25em) {
-
-  .max-length-eng {
-    max-width: 17rem;
-  }
-
-}
-
-@media only screen and (min-width: 38em) {
-
-  .max-length-eng {
-    max-width: 24rem;
-  }
-
+hr {
+  border-color: #e2e2e2;
 }
 
 @media only screen and (min-width: 60em) {
 
-  .logo {
-    text-align: left;
-  }
-
-  nav {
-    text-align: right;
-  }
-
-  .max-length {
-    max-width: 36em;
-  }
-
-  .max-length-eng {
-    max-width: 24em;
+  .wrapper {
+    max-width: 38em;
   }
 
 }
