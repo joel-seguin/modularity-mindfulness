@@ -2,6 +2,10 @@ html {
   font-family: "Noto Sans", sans-serif;
 }
 
+.bug {
+  color: #0084a6;
+}
+
 .jap {
   font-family: "Noto Sans Japanese", sans-serif;
   font-family: "Noto Sans JP", sans-serif;
